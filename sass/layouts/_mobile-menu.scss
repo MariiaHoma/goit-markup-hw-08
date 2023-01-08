@@ -49,20 +49,32 @@
   }
 }
 
+.site-nav__link--current.link {
+    color: var(--accent-blue);
+}
+
 .mobile-menu__phone {
   font-weight: 500;
   font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
+
+  @media screen and (min-width: 480px) {
+    font-size: 34px;
+  }
 }
 
 .mobile-menu__email {
   font-weight: 500;
-  font-size: 24px;
+  font-size: 26px;
   line-height: 1.16;
   letter-spacing: 0.02em;
   color: #757575;
+
+  @media screen and (min-width: 480px) {
+    font-size: 34px;
+  }
 }
 
 .mobile-menu__social-media {
@@ -81,6 +93,10 @@
   letter-spacing: 0.02em;
   color: var(--accent-color);
   padding-right: 10px;
+
+  @media screen and (min-width: 480px) {
+    font-size:22px;
+  }
 }
 
 .mobile-menu__social-media {

@@ -117,12 +117,14 @@
     justify-content: center;
   }
 }
+
 .contacts__item {
   @media screen and (min-width: 1200px) {
     margin-left: 50px;
-
+    
     &:first-child {
       margin-left: 0;
+      margin-bottom: 10px;
     }
   }
 }
@@ -142,14 +144,14 @@
 
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     font-size: 12px;
-    padding-bottom: 10px;
+    margin-bottom: 10px;
     margin-left: 80px;
   }
 
   @media screen and (min-width: 1200px) {
     font-size: 14px;
-    padding-top: 32px;
-    padding-bottom: 32px;
+    margin-top: 32px;
+    margin-bottom: 32px;
   }
 }
 
