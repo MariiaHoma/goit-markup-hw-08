@@ -50,7 +50,7 @@
 
 .mobile-menu__phone {
   font-weight: 500;
-  font-size: 34px;
+  font-size: 26px;
   line-height: 1.17;
   letter-spacing: 0.02em;
   color: var(--accent-color);
@@ -75,15 +75,17 @@
 
 .mobile-menu__link {
   font-weight: 500;
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.22;
   letter-spacing: 0.02em;
   color: var(--accent-color);
   padding-right: 10px;
 }
+
 .mobile-menu__social-media {
   margin-bottom: 48px;
 }
+
 .mobile-menu__social-item:not(:last-child) {
   border-right: 1px solid rgba(33, 33, 33, 0.2);
 }
