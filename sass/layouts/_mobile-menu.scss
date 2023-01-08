@@ -11,9 +11,6 @@
   &:focus {
     fill: var(--accent-color);
   }
-  &.icon-cross {
-    display: none;
-  }
   &.is-open .icon-cross {
     display: block;
     position: fixed;
@@ -25,6 +22,10 @@
   @media screen and (min-width: 767px) {
     display: none;
   }
+}
+
+.menu-button .icon-cross {
+  display: none;
 }
 
 .mobile-menu {

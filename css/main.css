@@ -1424,9 +1424,6 @@ img {
 .menu-button:hover, .menu-button:focus {
   fill: var(--accent-color);
 }
-.menu-button.icon-cross {
-  display: none;
-}
 .menu-button.is-open .icon-cross {
   display: block;
   position: fixed;
@@ -1438,6 +1435,10 @@ img {
   .menu-button {
     display: none;
   }
+}
+
+.menu-button .icon-cross {
+  display: none;
 }
 
 .mobile-menu {
