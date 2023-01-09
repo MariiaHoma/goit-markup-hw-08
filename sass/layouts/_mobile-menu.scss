@@ -6,6 +6,7 @@
   position: absolute;
   transform: translate(-50%, -50%);
   z-index: 7;
+  margin-right: auto;
 
   &:hover,
   &:focus {
@@ -44,13 +45,13 @@
     display: block;
   }
 
-  @media screen and (max-width: 767px) {
+  @media screen and (min-width: 768px) {
     display: none;
   }
 }
 
 .site-nav__link--current.link {
-    color: var(--accent-blue);
+    color: var(--accent-color);
 }
 
 .mobile-menu__phone {
