@@ -19,6 +19,7 @@
 }
 
 .modal {
+  width: 95%;
   position: relative;
   top: 50%;
   left: 50%;
@@ -34,8 +35,11 @@
     margin-top: 95px 15px;
   }
 
-  @media screen and (max-width: 1199px) {
+  @media screen and (min-width: 480px) {
     width: 450px;
+  }
+
+  @media screen and (max-width: 1199px) {
     margin-top: 208px 159px;
   }
 
@@ -92,9 +96,8 @@
 
 .form__label {
   margin-bottom: 4px;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.16;
+  font-size: 14px;
+  line-height: calc(14 / 12);
   letter-spacing: 0.01em;
   color: #757575;
 }
