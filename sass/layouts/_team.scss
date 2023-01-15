@@ -4,7 +4,7 @@
   padding-top: 0;
   padding-bottom: 0;
 
-  @media screen and (min-width: 450px), (min-width: 768px) {
+  @media screen and (min-width: 320px), (min-width: 450px), (min-width: 768px) {
     padding-top: 60px;
     padding-bottom: 60px;
   }
@@ -29,6 +29,10 @@
 }
 
 .team__member {
+  @media screen and (max-width: 320px) {
+    padding: 0;
+  }
+
   @media screen and (min-width: 768px) {
     display: flex;
     flex-wrap: wrap;
