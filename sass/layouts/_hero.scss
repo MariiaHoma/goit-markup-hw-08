@@ -17,7 +17,7 @@
 }
 
 .overlay {
-  max-width: 1600px;
+  max-width: 480px;
   margin: 0 auto;
   height: 400px;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
@@ -36,6 +36,7 @@
   }
 
   @media screen and (min-width: 767px) {
+    max-width: 768px;
     // max-width: 100%;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero-tab.jpg);
@@ -44,6 +45,7 @@
     }
   }
   @media screen and (min-width: 1200px) {
+    max-width: 1600px;
     height: 600px;
     background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
       url(../images/hero-desktop.jpg);

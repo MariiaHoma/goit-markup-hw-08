@@ -29,7 +29,7 @@
 }
 
 .team__member {
-  @media screen and (max-width: 320px) {
+  @media screen and (min-width: 320px) {
     padding: 0;
   }
 
@@ -96,6 +96,10 @@
   @extend %flex-align;
   justify-content: center;
   margin-top: 16px;
+
+  @media screen and (min-width: 320px) {
+    padding: 0;
+  }
 }
 
 .social-list__item {

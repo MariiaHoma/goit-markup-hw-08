@@ -99,11 +99,16 @@
 }
 
 .header__contacts {
+ 
+
   @media screen and (max-width: 767px) {
     display: none;
   }
 
   @media screen and (min-width: 768px) {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
   }
 
   @media screen and (min-width: 1200px) {
@@ -111,23 +116,19 @@
     align-items: center;
     margin-left: auto;
     justify-content: center;
+    flex-direction: row;
+    gap: 30px;
   }
 }
 
 .contacts__item {
   @media screen and (min-width: 1200px) {
-    margin-left: 50px;
-
+    
     &:first-child {
       margin-left: 0;
     }
   }
-  
-  @media screen and (min-width: 768px) {
-    
-  }
 }
-
 
 .contacts__link {
   @extend %flex-align;
